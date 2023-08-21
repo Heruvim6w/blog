@@ -4,6 +4,7 @@
 
 <form action="{{ route('posts.update', [$post]) }}" method="post">
     @csrf
+    @method('put')
     <label for="title">
         <input type="text" name="title" id="title" value="{{ $post->title }}">
     </label>

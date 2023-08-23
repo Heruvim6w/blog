@@ -33,4 +33,12 @@
     <button type="submit">Сохранить</button>
 </form>
 
+<script>
+    ClassicEditor
+        .create( document.querySelector( '#content' ) )
+        .catch( error => {
+            console.error( error );
+        } );
+</script>
+
 @include('layouts.footer')

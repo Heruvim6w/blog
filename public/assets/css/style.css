@@ -724,6 +724,10 @@ footer .footer-copyright {
     transform: scale(1.1);
 }
 
+#btn_delete {
+    border: none;
+    background: none;
+}
 
 
 /*---------------------------------------
